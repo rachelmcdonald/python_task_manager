@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <title>{{ name }} - My Task List</title>
+    </head>
+    <body>
+        <h1>Task Overview</h1>
+        <button><a href="/tasks/all_tasks">Select a Task</a></button>
+        <div class="home-container">
+        <ul>
+            {% for task in tasks %}
+            <li>
+                <p>{{ task.date }} - <i>{{ task.name }}</i></p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Task View</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <button><a href="/tasks">Home</a></button>
+        </ul>
+    </nav>
+    <h1>Task View - {{task.name}}</h1>
+
+    <div class="task-container">
+
+        <div class="task">
+            <h2>{{ task.name }}</h2>
+            <h3>{{ task.date }}</h3>
+            <h5>{{ task.description }}</h5>
+        </div>
+    </div>
+</body>
+
+</html>

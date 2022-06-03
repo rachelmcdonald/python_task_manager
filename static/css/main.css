@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    border: 2px solid rgb(255, 153, 0);
+    padding: 10px;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(116, 145, 225);
+    font-weight: bolder;
+}
+
+.home-container {
+    margin: 25px;
+    border: 4px solid rgb(255, 153, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(116, 145, 225);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+}
+
+li, ul {
+    list-style: none;
+}
+
+button {
+    color: whitesmoke;
+    background-color: rgb(255, 153, 0);
+    border: 2px solid rgb(255, 149, 0);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(116, 145, 225);
+    color: whitesmoke;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.tasks {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 15px;
+    background-color: rgb(116, 145, 225);
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tasks:hover {
+    color: whitesmoke;
+    background-color:rgb(255, 153, 0);
+    cursor: pointer;
+    transition: .25s;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.task {
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    color: rgb(255, 153, 0);
+    font-size: 24px;
+}
+
+h3 {
+    color: rgb(116, 145, 225);
+    font-size: 20px;
+    font-style: italic;
+}
+
+h5 {
+    color: rgb(73, 98, 167);
+    font-size: 18px;
+}
